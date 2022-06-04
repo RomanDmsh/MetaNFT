@@ -712,7 +712,7 @@ p {
     -moz-transform: translateX(0%);
   }
   to {
-    -moz-transform: translateX(-54%);
+    -moz-transform: translateX(-60%);
   }
 }
 
@@ -722,7 +722,7 @@ p {
     -webkit-transform: translateX(0%);
   }
   to {
-    -webkit-transform: translateX(-54%);
+    -webkit-transform: translateX(-60%);
   }
 }
 
@@ -733,17 +733,56 @@ p {
     transform: translateX(0%);
   }
   to {
-    -moz-transform: translateX(-54%);
-    -webkit-transform: translateX(-54%);
-    transform: translateX(-54%);
+    -moz-transform: translateX(-60%);
+    -webkit-transform: translateX(-60%);
+    transform: translateX(-60%);
   }
 }
 
 #head-2 h1 {
+  -moz-animation: my-animation3 3s linear infinite;
+  -webkit-animation: my-animation3 3s linear infinite;
+  animation: my-animation3 3s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation3 {
+  from {
+    -moz-transform: translateX(14%);
+  }
+  to {
+    -moz-transform: translateX(-99%);
+  }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation3 {
+  from {
+    -webkit-transform: translateX(14%);
+  }
+  to {
+    -webkit-transform: translateX(-99%);
+  }
+}
+
+@keyframes my-animation3 {
+  from {
+    -moz-transform: translateX(14%);
+    -webkit-transform: translateX(14%);
+    transform: translateX(14%);
+  }
+  to {
+    -moz-transform: translateX(-99%);
+    -webkit-transform: translateX(-99%);
+    transform: translateX(-99%);
+  }
+}
+
+#head-3 h1 {
   /* animation properties */
-  -moz-animation: my-animation 3s linear infinite;
-  -webkit-animation: my-animation 3s linear infinite;
-  animation: my-animation 3s linear infinite;
+  -moz-animation: my-animation 2s linear infinite;
+  -webkit-animation: my-animation 2s linear infinite;
+  animation: my-animation 2s linear infinite;
 }
 
 /* for Firefox */
@@ -752,7 +791,7 @@ p {
     -moz-transform: translateX(0%);
   }
   to {
-    -moz-transform: translateX(-36%);
+    -moz-transform: translateX(-40%);
   }
 }
 
@@ -762,7 +801,7 @@ p {
     -webkit-transform: translateX(0%);
   }
   to {
-    -webkit-transform: translateX(-36%);
+    -webkit-transform: translateX(-40%);
   }
 }
 
@@ -773,48 +812,9 @@ p {
     transform: translateX(0%);
   }
   to {
-    -moz-transform: translateX(-36%);
-    -webkit-transform: translateX(-36%);
-    transform: translateX(-36%);
-  }
-}
-
-#head-3 h1 {
-  -moz-animation: my-animation3 4s linear infinite;
-  -webkit-animation: my-animation3 4s linear infinite;
-  animation: my-animation3 4s linear infinite;
-}
-
-/* for Firefox */
-@-moz-keyframes my-animation3 {
-  from {
-    -moz-transform: translateX(4%);
-  }
-  to {
-    -moz-transform: translateX(-98%);
-  }
-}
-
-/* for Chrome */
-@-webkit-keyframes my-animation3 {
-  from {
-    -webkit-transform: translateX(4%);
-  }
-  to {
-    -webkit-transform: translateX(-98%);
-  }
-}
-
-@keyframes my-animation3 {
-  from {
-    -moz-transform: translateX(4%);
-    -webkit-transform: translateX(4%);
-    transform: translateX(4%);
-  }
-  to {
-    -moz-transform: translateX(-98%);
-    -webkit-transform: translateX(-98%);
-    transform: translateX(-98%);
+    -moz-transform: translateX(-40%);
+    -webkit-transform: translateX(-40%);
+    transform: translateX(-40%);
   }
 }
 
