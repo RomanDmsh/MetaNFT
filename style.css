@@ -50,9 +50,8 @@ button:hover i {
 section,
 nav,
 .banner {
-  width: 1200px;
+  width: 1300px;
   margin: auto;
-  border: 2px solid red;
 }
 
 nav {
