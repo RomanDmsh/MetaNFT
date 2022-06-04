@@ -124,6 +124,7 @@ nav .social li img {
 }
 .main-banner img {
   height: inherit;
+  width: 800px;
 }
 
 /* wave-nft-block */
@@ -241,7 +242,7 @@ nav .social li img {
 .story-block .headline {
   white-space: nowrap;
 }
-.story-block .headline-mobile {
+.headline-mobile {
   display: none;
 }
 
@@ -817,7 +818,7 @@ p {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   nav {
     display: none;
   }
@@ -895,7 +896,7 @@ p {
   .story-block .headline {
     display: none;
   }
-  .story-block .headline-mobile {
+  .headline-mobile {
     display: block;
   }
   .story-block .headline-mobile i {
@@ -942,6 +943,7 @@ p {
   .roadmap-cards-container {
     width: 500px;
     margin-bottom: 50px;
+    overflow: hidden;
   }
   .roadmap-cards-container .card {
     width: 400px;
@@ -979,7 +981,6 @@ p {
     justify-content: flex-start;
     height: auto;
     align-items: center;
-    border: 2px solid blue;
   }
 
   .faq-description {
